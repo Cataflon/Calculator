@@ -1,0 +1,78 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+main {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  width: 100%;
+  background-color: brown;
+}
+.colorTheme {
+  padding-left: 120px;
+  padding-top: 20px;
+}
+.colorTheme button {
+  height: 40px;
+  width: 40px;
+  background-color: #262932;
+  color: white;
+  font-weight: 800;
+  border-radius: 10px;
+  border: transparent;
+  cursor: pointer;
+}
+.rezultat {
+  color: aliceblue;
+  padding-left: 70px;
+  padding-top: 100px;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  width: 325px;
+  height: 700px;
+  border: transparent;
+  border-radius: 30px;
+  background-color: #22252d;
+}
+.taste {
+  background-color: #2a2d37;
+  width: 100%;
+  height: 420px;
+  padding-left: 13px;
+  padding-top: 40px;
+  border-radius: 30px;
+}
+.taste button {
+  font-size: 16px;
+  height: 60px;
+  width: 60px;
+  margin-right: 15px;
+  margin-bottom: 15px;
+  background-color: #262932;
+  color: white;
+  font-weight: 800;
+  border-radius: 10px;
+  border: transparent;
+  cursor: pointer;
+}
+.rezultat {
+  height: 200px;
+  font-size: 40px;
+}
+.resultButton button {
+  height: 40px;
+  width: 130px;
+  margin-left: 100px;
+  margin-top: 10px;
+  background-color: #262932;
+  color: white;
+  font-weight: 800;
+  border-radius: 10px;
+  border: transparent;
+  cursor: pointer;
+}
