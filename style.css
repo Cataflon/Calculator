@@ -27,8 +27,28 @@ main {
 }
 .rezultat {
   color: aliceblue;
-  padding-left: 70px;
-  padding-top: 100px;
+  height: 200px;
+  width: 100%;
+  padding: 15px;
+}
+.rezult-ecuation {
+  font-size: 24px;
+  height: 110px;
+  overflow-wrap: break-word;
+  text-align: right;
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+}
+.rezult-ecuation p {
+  height: auto;
+}
+.rezult-final {
+  display: flex;
+  justify-content: end;
+  padding-right: 10px;
+  font-size: 28px;
+  gap: 10px;
 }
 .container {
   display: flex;
@@ -60,15 +80,18 @@ main {
   border: transparent;
   cursor: pointer;
 }
-.rezultat {
-  height: 200px;
-  font-size: 40px;
+
+.resultButton {
+  width: 100%;
+  background-color: "red";
+  display: flex;
+  justify-content: center;
 }
 .resultButton button {
-  height: 40px;
-  width: 130px;
-  margin-left: 100px;
-  margin-top: 10px;
+  height: 50px;
+  width: 160px;
+  margin-top: 15px;
+  margin-bottom: 15px;
   background-color: #262932;
   color: white;
   font-weight: 800;
